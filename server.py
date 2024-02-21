@@ -14,7 +14,7 @@ def get_distance():
     data = request.json
     startingPoint = data.get('startingPoint')
     destination = data.get('destination')
-    api_key = 'AIzaSyBtNl0Zla-74NeF5FhL5KlwPzarUx7tGy0'
+    api_key = '[YOUR_API_KEY]'
 
     endpoint_url = f"https://maps.googleapis.com/maps/api/distancematrix/json?destinations={destination}&origins={startingPoint}&key={api_key}"
 
